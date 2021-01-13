@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.interface {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(226, 226, 202);
+    display: flex;
+    flex-direction: column;
+}
+
+header.main {
+    background-color: #009688;
+    height: 127px;
+    width: 100vw;
+}
+
+section.content {
+    background-color: rgb(226, 226, 202);
+    height: calc(100vh - 127px);
+    width: 100vw;
+}
+
+section.content .windows {
+    box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    height: 95vh;
+    width: 80vw;
+    background-color: #f7f7f7;
+    margin-top: -110px;
+    display: flex;
+}
+
+section.content .windows aside {
+    width: 419px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.content .windows aside header {
+    background-color: #ededed;
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.content .windows aside header img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+section.content .windows aside header div img {
+    height: 20px;
+    width: 20px;
+    opacity: 0.5;
+}
+
+section.content .windows aside header div img#more {
+    margin-right: 20px;
+}
+
+section.content .windows aside div.input {
+    height: 65px;
+    width: 100%;
+    background-color: #e2dcdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.content .windows aside div.input input {
+    height: 60%;
+    width: 95%;
+    padding-left: 35px;
+    border-radius: 10px;
+    border: 0;
+    background: white url(/assents//search.svg) no-repeat 15px;
+    background-size: 15px;
+    opacity: 0.4;
+}
+
+section.content .windows aside ul {
+    list-style: none;
+    overflow: auto;
+}
+
+section.content .windows aside ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+section.content .windows aside ul li:hover {
+    background-color: #e0dede;
+    transition: 0.2s;
+}
+
+section.content .windows aside ul li.actived {
+    background-color: #e0dede;
+}
+
+section.content .windows aside ul li img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+section.content .windows aside ul li div {
+    margin-left: 15px;
+}
+
+section.content .windows aside ul li div span {
+    font-size: 17px;
+}
+
+section.content .windows aside ul li div p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #4a4a4a;
+}
+
+section.content .windows section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.content .windows section header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 59px;
+    background-color: #ededed;
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+section.content .windows section header div img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+section.content .windows section header div.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+}
+
+section.content .windows section header div.right {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+section.content .windows section header div.right img {
+    height: 20px;
+    width: 20px;
+}
+
+section.content .windows section main {
+    height: 100%;
+    background-color: #ccc8c8;
+}
+
+section.content .windows section footer {
+    height: 59px;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+}
+
+section.content .windows section footer input {
+    width: 88%;
+    height: 70%;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+section.content .windows section footer img {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
